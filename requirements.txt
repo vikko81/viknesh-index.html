@@ -1,0 +1,4 @@
+flask
+moviepy
+numpy
+requests

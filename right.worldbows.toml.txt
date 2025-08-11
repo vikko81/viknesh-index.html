@@ -1,0 +1,24 @@
+[project]
+name = "SmartVideoDownloader"
+version = "1.0.0"
+description = "Facebook/Instagram/TikTok Video Downloader"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+python = "^3.8"
+flask = ">=2.0.1"
+pytube = ">=12.1.0"
+requests = ">=2.26.0"
+moviepy = ">=1.0.3"  # वॉटरमार्क हटाने के लिए
+
+[scripts]
+start = "python app.py"
+install = "pip install -r requirements.txt"
+
+[config]
+port = 8080
+debug = true
+
+[metadata]
+license = "MIT"
+repository = "https://github.com/yourusername/SmartVideoDownloader"
